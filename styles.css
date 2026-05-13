@@ -629,6 +629,17 @@ body.intro-done .intro {
   gap: 30px;
 }
 
+.owners-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 430px));
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.owners-grid--two .owner-card {
+  min-height: 520px;
+}
+
 .owner-card {
   position: relative;
   display: grid;
